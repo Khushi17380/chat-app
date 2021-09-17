@@ -1,6 +1,6 @@
 import firebase from "firebase/app";
 
-const congig={
+const config={
   apiKey: "AIzaSyDeU2eO233W6NtXVCohAKk5g5iPYdtgU0Y",
   authDomain: "chat-web-app-7b174.firebaseapp.com",
   projectId: "chat-web-app-7b174",
