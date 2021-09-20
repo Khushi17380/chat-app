@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'rsuite';
-import Sidebar from '../components/Sidebar';
-import { RoomsProvider } from '../context/rooms.context';
+import Sidebar from '../../components/Sidebar';
+import { RoomsProvider } from '../../context/rooms.context';
 
 const Home = () => {
   return (

@@ -11,8 +11,8 @@ import {
   Alert,
 } from 'rsuite';
 import firebase from 'firebase/app';
-import { useModalState } from '../../misc/custom-hooks';
-import {database}  from '../../misc/firebase';
+import { useModalState } from '../misc/custom-hooks';
+import { database } from '../misc/firebase';
 
 const { StringType } = Schema.Types;
 
