@@ -7,6 +7,5 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://chat-web-app-7b174-default-rtdb.firebaseio.com"});
 
-const {sendFcm}=require("./src/fcm");
-
-exports.sendFcm =sendFcm;
+const {sendFcm} = require("./src/fcm");
+exports.sendFcm = sendFcm;
